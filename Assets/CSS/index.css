@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background: url(../Images/Linear.png), url(../Images/Purple.png), url(../Images/Green.png), url(../Images/Yellow.png);
+    background-size: 60%, 70%, 70%, 20%;
+    background-position: center, top right, right center, bottom left;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../Fonts/Poppins\ Regular/);
+}
+
+.header {
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 0 50px;
+    width: 100%;
+}
+
+.Name-tag {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#contact {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 13%;
+}
+
+#self-description {
+    height: 75vh;
+    width: 90%;
+    margin: auto;
+    padding: 20px 50px;
+}
+
+.introduction {
+    width: 45%;
+}
+
+.Hello-button {
+    color: #fff;
+    background-color: rgb(137, 4, 209);
+    border: 2px solid rgb(137, 4, 209);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#experience {
+    margin-top: 60px;
+    background-color: #edd8ff;
+}
+
+#picture {
+    background-color: #fff;
+    border-radius: 10px;
+    top: 20%;
+    width: 30%;
+    right: 8%;
+}
+.introduction2{
+    width: 50%;
+    margin: auto;
+}
+#picture2 {
+    height: 220px;
+    top: 10%;
+    left: 70%;
+}
+
+.picture-icons {
+    color: rgb(137, 4, 209);
+    align-items: center;
+}
+
+.linkedin {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    padding: 5px;
+}
+
+#button {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    padding: 5px;
+    border: none;
+}
+
+#download {
+    color: rgb(137, 4, 209);
+    border: 1px solid rgb(137, 4, 209);
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* main */
+.workprocess-container {
+    background-color: rgba(225, 224, 224, 0.782);
+    height: 100vh;
+    padding-top: 5%;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.workprocess{
+    width: 100%;
+}
+.processes {
+    width: 40%;
+}
+
+.processes i {
+    background-color: #edd8ff;
+    padding: 10px;
+    ;
+}
+
+.case-button {
+    color: rgb(137, 4, 209);
+    border: 1px solid rgb(137, 4, 209);
+    padding: 10px;
+}
+
+.button-project {
+    color: #fff;
+    background-color: rgb(137, 4, 209);
+    border: none;
+    padding: 10px;
+}
+
+.Project-india {
+    background-color: rgb(22, 2, 65);
+    color: #fff;
+    padding: 20px;
+
+}
+
+.Together-button {
+    color: #fff;
+    background-color: rgb(137, 4, 209);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.hello-button {
+    color: #fff;
+    background-color: rgb(137, 4, 209);
+    border: none;
+    padding: 10px;
+}
+#ui-ux-experience{
+    width: 50%;
+}
+.User-Experience:hover {
+    border-left: 10px solid rgb(137, 4, 209);
+    border-radius: 2px;
+}
+
+#research {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    border: none;
+    padding: 15px;
+}
+
+.happy-client-image {
+    width: 100px;
+}
+
+.Address i {
+    color: rgb(137, 4, 209);
+    background-color: #edd8ff;
+    padding: 10px;
+}
+
+#Mexico,
+#facebook {
+    color: #fff;
+    background-color: rgb(137, 4, 209);
+    padding: 15px;
+}
+
+.Name {
+    color: rgb(137, 4, 209);
+    border: none;
+    border-bottom: solid 1px rgb(137, 4, 209);
+    ;
+}
+
+.Name::placeholder {
+    color: rgb(137, 4, 209);
+}
+
+.social-media-icons {
+    color: rgb(137, 4, 209);
+}
+
+.submit-button {
+    background-color: rgb(137, 4, 209);
+    color: #fff;
+    border: none;
+}
+
+.footer-container {
+    background-color: rgb(22, 2, 65);
+    height: 20vh;
+}
+
+/* @include media-breakpoint-up(sm) {  
+    * {
+        border: solid 1px green;
+    }
+
+    body {
+        background: none;
+
+    }
+
+    .header {
+        background-image: url(../Images/Brooklyn-removebg-preview\ \(1\).png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    #picture,
+    .Experience,
+    .introduction2,
+    .self-description2,
+    #picture2,
+    .Picture-and-icons {
+        display: none;
+    }
+
+    .introduction {
+        background-color: rgba(246, 243, 243, 0.74);
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 25vh;
+        top: 50%;
+    }
+
+
+} */
+
+@media only screen and (min-width: 500px) {
+    .introduction2{
+        width: 50%;
+    }
+    
+    .processes {
+        width: 100%;    
+    }
+    #ui-ux-experience{
+        width: 50%;
+    }
+   
+    
+   
+
+    
+}
